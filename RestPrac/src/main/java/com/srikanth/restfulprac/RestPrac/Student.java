@@ -27,6 +27,10 @@ public class Student {
 	public void setLastName(String lastName) {
 		LastName = lastName;
 	}
+	@Override
+	public String toString() {
+		return "Student [StudentID=" + StudentID + ", FirstName=" + FirstName + ", LastName=" + LastName + "]";
+	}
 	
 	
 }
