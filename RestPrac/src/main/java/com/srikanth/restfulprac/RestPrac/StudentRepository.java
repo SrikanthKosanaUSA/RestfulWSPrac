@@ -62,7 +62,7 @@ public class StudentRepository {
 	    return mystudent;  
 	}
 
-	/*public void create(Student s1) {
-		students.add(s1);		
-	}*/
+	public void create(Student s5) {
+		students.add(s5);		
+	}
 }

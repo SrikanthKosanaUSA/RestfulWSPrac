@@ -31,7 +31,7 @@ public class StudentResource {
 		return repo.getStudentbyID(StudentID);
 	}
 	
-	/*@POST
+	@POST
 	@Path("student")
 	public Student CreateNewStudent(Student s5) {
 		System.out.println(s5);
@@ -39,5 +39,5 @@ public class StudentResource {
 		
 		return s5;
 	}
-	*/
+	
 }
